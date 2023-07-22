@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Add Patient </title>
+</head>
+<body>
+    <form method="post" action="{{url_for('add')}}">
+        <label for="name_p">Name of Patient:-</label>
+        <input type="text" name="name_p" placeholder="Enter the name of Patient" >
+        <hr>
+        <label for="email">Email:-</label>
+        <input type="email" name="email" placeholder="Enter Your Email ">
+        <hr>
+        <label for="date_p">Date :-</label>
+        <input type="date" name="date_p"><br>
+        <hr>
+        <label for="phone">Enter Contact :-</label>
+        <input type="tel" name="phone" >
+        <hr>
+        <label for="age">Enter your Age</label>
+        <input type="number" name="age">
+        <hr>
+        <label for="problem">Enter your problem (Disease):-</label>
+        <input type="tex" name="problem" >
+        <hr>
+        <label for="address">Enter Your Address:-</label>
+        <input type="text" name="address" >
+        <hr>
+        <label for="profession">Enter your Profession:-</label>
+        <input type="text" name="profession">
+        <hr>
+        <label for="blood_grp">Enter Your Blood Group:-</label>
+        <input type="text" name="blood_grp">
+        <hr>
+        <label for="guardian_contact">Enter your Guardian's Contact</label>
+        <input type="tel" name="guardian_contact">
+        <hr>
+        <label for="doctor_name ">Enter Doctor's Name :-</label>
+        <input type="text" name="doctor_name">
+        <hr>
+        <label for="transaction">Enter the Mode of Payment</label>
+        <input type="text" name="transaction">
+        <br>
+      
+      <button type="submit">Submit </button>
+      </form>
+</body>
+</html>
